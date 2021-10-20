@@ -1,3 +1,4 @@
+#Word guessing game by : Amritpal Singh
 import random
 # library that we use in order to choose
 # on random words from a list of words
@@ -7,9 +8,7 @@ name = input("What is your name? ")
 
 print("Good Luck ! ", name)
 
-#words = ['rainbow', 'computer', 'science', 'programming',
-#		'python', 'mathematics', 'player', 'condition',
-#		'reverse', 'water', 'board', 'amrit']
+
 
 file = open('wordlist.txt', mode = 'r')
 words = file.readlines()
@@ -24,7 +23,7 @@ print("\n###### Guess the characters ######")
 
 guesses = ''
 
-# any number of turns can be used here
+
 turns = 12 
 
 
